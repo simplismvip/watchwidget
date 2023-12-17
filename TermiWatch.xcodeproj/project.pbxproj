@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		683B20D72B2DC9020038014D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C24A7B2B21F2B5000637BC /* WidgetKit.framework */; };
+		683B20D82B2DC9020038014D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C24A7D2B21F2B5000637BC /* SwiftUI.framework */; };
+		683B20DD2B2DC9040038014D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 683B20DC2B2DC9040038014D /* Assets.xcassets */; };
+		683B20E12B2DC9040038014D /* TermiWatchWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 683B20D62B2DC9020038014D /* TermiWatchWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		683B20F12B2DC9490038014D /* TermiWatchWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B20E92B2DC9490038014D /* TermiWatchWidgetBundle.swift */; };
+		683B21072B2EA8380038014D /* WeatherUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B21052B2EA8380038014D /* WeatherUtils.swift */; };
+		683B21082B2EA8380038014D /* HealthObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B21062B2EA8380038014D /* HealthObserver.swift */; };
+		683B210A2B2EA84B0038014D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B21092B2EA84B0038014D /* Colors.swift */; };
+		683B210B2B2EA89C0038014D /* WeatherEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B20FA2B2EA80C0038014D /* WeatherEntry.swift */; };
+		683B210D2B2EA8A50038014D /* HealthWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B20FC2B2EA8180038014D /* HealthWidget.swift */; };
+		683B210E2B2EA8A90038014D /* HermesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B20FF2B2EA8180038014D /* HermesWidget.swift */; };
+		683B210F2B2EA8AC0038014D /* WeatherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B20FD2B2EA8180038014D /* WeatherWidget.swift */; };
+		683B21112B2EA9990038014D /* HealthEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B21102B2EA9990038014D /* HealthEntry.swift */; };
+		683B21132B2EABC80038014D /* ChristmasWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B21122B2EABC80038014D /* ChristmasWidget.swift */; };
+		683B21152B2EAC6D0038014D /* ChristmasEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B21142B2EAC6D0038014D /* ChristmasEntry.swift */; };
+		68C24A1A2B21F26D000637BC /* TermiWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C24A192B21F26D000637BC /* TermiWatchApp.swift */; };
+		68C24A1C2B21F26D000637BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C24A1B2B21F26D000637BC /* ContentView.swift */; };
+		68C24A1E2B21F271000637BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C24A1D2B21F271000637BC /* Assets.xcassets */; };
+		68C24A212B21F271000637BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C24A202B21F271000637BC /* Preview Assets.xcassets */; };
+		68C24A3D2B21F271000637BC /* TermiWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 68C24A3C2B21F271000637BC /* TermiWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68C24A422B21F271000637BC /* TermiWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C24A412B21F271000637BC /* TermiWatchApp.swift */; };
+		68C24A442B21F271000637BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C24A432B21F271000637BC /* ContentView.swift */; };
+		68C24A462B21F274000637BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C24A452B21F274000637BC /* Assets.xcassets */; };
+		68C24A492B21F274000637BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C24A482B21F274000637BC /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		683B20DF2B2DC9040038014D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68C24A0E2B21F26D000637BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 683B20D52B2DC9020038014D;
+			remoteInfo = TermiWatchWidgetExtension;
+		};
+		68C24A3E2B21F271000637BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68C24A0E2B21F26D000637BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68C24A3B2B21F271000637BC;
+			remoteInfo = "TermiWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		683B20E52B2DC9040038014D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				683B20E12B2DC9040038014D /* TermiWatchWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68C24A652B21F274000637BC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				68C24A3D2B21F271000637BC /* TermiWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68C24A8D2B21F2B8000637BC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		683B20D62B2DC9020038014D /* TermiWatchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TermiWatchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		683B20DC2B2DC9040038014D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		683B20DE2B2DC9040038014D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683B20E92B2DC9490038014D /* TermiWatchWidgetBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermiWatchWidgetBundle.swift; sourceTree = "<group>"; };
+		683B20FA2B2EA80C0038014D /* WeatherEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherEntry.swift; sourceTree = "<group>"; };
+		683B20FC2B2EA8180038014D /* HealthWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthWidget.swift; sourceTree = "<group>"; };
+		683B20FD2B2EA8180038014D /* WeatherWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherWidget.swift; sourceTree = "<group>"; };
+		683B20FF2B2EA8180038014D /* HermesWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HermesWidget.swift; sourceTree = "<group>"; };
+		683B21052B2EA8380038014D /* WeatherUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherUtils.swift; sourceTree = "<group>"; };
+		683B21062B2EA8380038014D /* HealthObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthObserver.swift; sourceTree = "<group>"; };
+		683B21092B2EA84B0038014D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		683B21102B2EA9990038014D /* HealthEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthEntry.swift; sourceTree = "<group>"; };
+		683B21122B2EABC80038014D /* ChristmasWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasWidget.swift; sourceTree = "<group>"; };
+		683B21142B2EAC6D0038014D /* ChristmasEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasEntry.swift; sourceTree = "<group>"; };
+		68C24A162B21F26D000637BC /* TermiWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TermiWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C24A192B21F26D000637BC /* TermiWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermiWatchApp.swift; sourceTree = "<group>"; };
+		68C24A1B2B21F26D000637BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68C24A1D2B21F271000637BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68C24A202B21F271000637BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68C24A3C2B21F271000637BC /* TermiWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TermiWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C24A412B21F271000637BC /* TermiWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermiWatchApp.swift; sourceTree = "<group>"; };
+		68C24A432B21F271000637BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68C24A452B21F274000637BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68C24A482B21F274000637BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68C24A7B2B21F2B5000637BC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		68C24A7D2B21F2B5000637BC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		683B20D32B2DC9020038014D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683B20D82B2DC9020038014D /* SwiftUI.framework in Frameworks */,
+				683B20D72B2DC9020038014D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68C24A132B21F26D000637BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68C24A392B21F271000637BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		683B20D92B2DC9020038014D /* TermiWatchWidget */ = {
+			isa = PBXGroup;
+			children = (
+				683B21042B2EA8380038014D /* Utils */,
+				683B20F92B2EA7AA0038014D /* Entrys */,
+				683B20F82B2EA79A0038014D /* Widgets */,
+				683B20E92B2DC9490038014D /* TermiWatchWidgetBundle.swift */,
+				683B20DC2B2DC9040038014D /* Assets.xcassets */,
+				683B20DE2B2DC9040038014D /* Info.plist */,
+			);
+			path = TermiWatchWidget;
+			sourceTree = "<group>";
+		};
+		683B20F82B2EA79A0038014D /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				683B20FC2B2EA8180038014D /* HealthWidget.swift */,
+				683B20FF2B2EA8180038014D /* HermesWidget.swift */,
+				683B20FD2B2EA8180038014D /* WeatherWidget.swift */,
+				683B21122B2EABC80038014D /* ChristmasWidget.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		683B20F92B2EA7AA0038014D /* Entrys */ = {
+			isa = PBXGroup;
+			children = (
+				683B20FA2B2EA80C0038014D /* WeatherEntry.swift */,
+				683B21102B2EA9990038014D /* HealthEntry.swift */,
+				683B21142B2EAC6D0038014D /* ChristmasEntry.swift */,
+			);
+			path = Entrys;
+			sourceTree = "<group>";
+		};
+		683B21042B2EA8380038014D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				683B21052B2EA8380038014D /* WeatherUtils.swift */,
+				683B21062B2EA8380038014D /* HealthObserver.swift */,
+				683B21092B2EA84B0038014D /* Colors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		68C24A0D2B21F26D000637BC = {
+			isa = PBXGroup;
+			children = (
+				68C24A182B21F26D000637BC /* TermiWatch */,
+				68C24A402B21F271000637BC /* TermiWatch Watch App */,
+				683B20D92B2DC9020038014D /* TermiWatchWidget */,
+				68C24A7A2B21F2B5000637BC /* Frameworks */,
+				68C24A172B21F26D000637BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68C24A172B21F26D000637BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68C24A162B21F26D000637BC /* TermiWatch.app */,
+				68C24A3C2B21F271000637BC /* TermiWatch Watch App.app */,
+				683B20D62B2DC9020038014D /* TermiWatchWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68C24A182B21F26D000637BC /* TermiWatch */ = {
+			isa = PBXGroup;
+			children = (
+				68C24A192B21F26D000637BC /* TermiWatchApp.swift */,
+				68C24A1B2B21F26D000637BC /* ContentView.swift */,
+				68C24A1D2B21F271000637BC /* Assets.xcassets */,
+				68C24A1F2B21F271000637BC /* Preview Content */,
+			);
+			path = TermiWatch;
+			sourceTree = "<group>";
+		};
+		68C24A1F2B21F271000637BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				68C24A202B21F271000637BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68C24A402B21F271000637BC /* TermiWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				68C24A412B21F271000637BC /* TermiWatchApp.swift */,
+				68C24A432B21F271000637BC /* ContentView.swift */,
+				68C24A452B21F274000637BC /* Assets.xcassets */,
+				68C24A472B21F274000637BC /* Preview Content */,
+			);
+			path = "TermiWatch Watch App";
+			sourceTree = "<group>";
+		};
+		68C24A472B21F274000637BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				68C24A482B21F274000637BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68C24A7A2B21F2B5000637BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68C24A7B2B21F2B5000637BC /* WidgetKit.framework */,
+				68C24A7D2B21F2B5000637BC /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		683B20D52B2DC9020038014D /* TermiWatchWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683B20E22B2DC9040038014D /* Build configuration list for PBXNativeTarget "TermiWatchWidgetExtension" */;
+			buildPhases = (
+				683B20D22B2DC9020038014D /* Sources */,
+				683B20D32B2DC9020038014D /* Frameworks */,
+				683B20D42B2DC9020038014D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TermiWatchWidgetExtension;
+			productName = TermiWatchWidgetExtension;
+			productReference = 683B20D62B2DC9020038014D /* TermiWatchWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		68C24A152B21F26D000637BC /* TermiWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68C24A662B21F274000637BC /* Build configuration list for PBXNativeTarget "TermiWatch" */;
+			buildPhases = (
+				68C24A122B21F26D000637BC /* Sources */,
+				68C24A132B21F26D000637BC /* Frameworks */,
+				68C24A142B21F26D000637BC /* Resources */,
+				68C24A652B21F274000637BC /* Embed Watch Content */,
+				68C24A8D2B21F2B8000637BC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68C24A3F2B21F271000637BC /* PBXTargetDependency */,
+			);
+			name = TermiWatch;
+			productName = TermiWatch;
+			productReference = 68C24A162B21F26D000637BC /* TermiWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68C24A3B2B21F271000637BC /* TermiWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68C24A622B21F274000637BC /* Build configuration list for PBXNativeTarget "TermiWatch Watch App" */;
+			buildPhases = (
+				68C24A382B21F271000637BC /* Sources */,
+				68C24A392B21F271000637BC /* Frameworks */,
+				68C24A3A2B21F271000637BC /* Resources */,
+				683B20E52B2DC9040038014D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				683B20E02B2DC9040038014D /* PBXTargetDependency */,
+			);
+			name = "TermiWatch Watch App";
+			productName = "TermiWatch Watch App";
+			productReference = 68C24A3C2B21F271000637BC /* TermiWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68C24A0E2B21F26D000637BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					683B20D52B2DC9020038014D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					68C24A152B21F26D000637BC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					68C24A3B2B21F271000637BC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 68C24A112B21F26D000637BC /* Build configuration list for PBXProject "TermiWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68C24A0D2B21F26D000637BC;
+			productRefGroup = 68C24A172B21F26D000637BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68C24A152B21F26D000637BC /* TermiWatch */,
+				68C24A3B2B21F271000637BC /* TermiWatch Watch App */,
+				683B20D52B2DC9020038014D /* TermiWatchWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		683B20D42B2DC9020038014D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683B20DD2B2DC9040038014D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68C24A142B21F26D000637BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C24A212B21F271000637BC /* Preview Assets.xcassets in Resources */,
+				68C24A1E2B21F271000637BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68C24A3A2B21F271000637BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C24A492B21F274000637BC /* Preview Assets.xcassets in Resources */,
+				68C24A462B21F274000637BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		683B20D22B2DC9020038014D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683B20F12B2DC9490038014D /* TermiWatchWidgetBundle.swift in Sources */,
+				683B210A2B2EA84B0038014D /* Colors.swift in Sources */,
+				683B21152B2EAC6D0038014D /* ChristmasEntry.swift in Sources */,
+				683B21132B2EABC80038014D /* ChristmasWidget.swift in Sources */,
+				683B21112B2EA9990038014D /* HealthEntry.swift in Sources */,
+				683B21082B2EA8380038014D /* HealthObserver.swift in Sources */,
+				683B210B2B2EA89C0038014D /* WeatherEntry.swift in Sources */,
+				683B210F2B2EA8AC0038014D /* WeatherWidget.swift in Sources */,
+				683B210E2B2EA8A90038014D /* HermesWidget.swift in Sources */,
+				683B210D2B2EA8A50038014D /* HealthWidget.swift in Sources */,
+				683B21072B2EA8380038014D /* WeatherUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68C24A122B21F26D000637BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C24A1C2B21F26D000637BC /* ContentView.swift in Sources */,
+				68C24A1A2B21F26D000637BC /* TermiWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68C24A382B21F271000637BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C24A442B21F271000637BC /* ContentView.swift in Sources */,
+				68C24A422B21F271000637BC /* TermiWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		683B20E02B2DC9040038014D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 683B20D52B2DC9020038014D /* TermiWatchWidgetExtension */;
+			targetProxy = 683B20DF2B2DC9040038014D /* PBXContainerItemProxy */;
+		};
+		68C24A3F2B21F271000637BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68C24A3B2B21F271000637BC /* TermiWatch Watch App */;
+			targetProxy = 68C24A3E2B21F271000637BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		683B20E32B2DC9040038014D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48K328WFVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TermiWatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TermiWatchWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = junming.com.TermiWatch.watchkitapp.TermiWatchWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		683B20E42B2DC9040038014D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48K328WFVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TermiWatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TermiWatchWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = junming.com.TermiWatch.watchkitapp.TermiWatchWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		68C24A602B21F274000637BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68C24A612B21F274000637BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		68C24A632B21F274000637BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TermiWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 48K328WFVJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TermiWatch;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location data will be used to display weather data. ";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = junming.com.TermiWatch;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = junming.com.TermiWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		68C24A642B21F274000637BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TermiWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 48K328WFVJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TermiWatch;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location data will be used to display weather data. ";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = junming.com.TermiWatch;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = junming.com.TermiWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		68C24A672B21F274000637BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TermiWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 48K328WFVJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TermiWatch;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your health records will be used to display activity data.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location data will be used to display weather data. ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = junming.com.TermiWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68C24A682B21F274000637BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TermiWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 48K328WFVJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TermiWatch;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your health records will be used to display activity data.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location data will be used to display weather data. ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = junming.com.TermiWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		683B20E22B2DC9040038014D /* Build configuration list for PBXNativeTarget "TermiWatchWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683B20E32B2DC9040038014D /* Debug */,
+				683B20E42B2DC9040038014D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68C24A112B21F26D000637BC /* Build configuration list for PBXProject "TermiWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C24A602B21F274000637BC /* Debug */,
+				68C24A612B21F274000637BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68C24A622B21F274000637BC /* Build configuration list for PBXNativeTarget "TermiWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C24A632B21F274000637BC /* Debug */,
+				68C24A642B21F274000637BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68C24A662B21F274000637BC /* Build configuration list for PBXNativeTarget "TermiWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C24A672B21F274000637BC /* Debug */,
+				68C24A682B21F274000637BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68C24A0E2B21F26D000637BC /* Project object */;
+}
